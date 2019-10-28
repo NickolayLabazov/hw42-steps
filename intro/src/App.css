@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.steps-form{
+  margin: 5px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.steps-inputBox{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.steps-button{
+  width: 80px;
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.steps-input{
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.steps-infoTable{
+  width: 60%;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.daydist-info{
+  width: 35%;
+}
+
+.daydist-action{
+  width: 15%;
+  cursor: pointer;
+}
+
+
+
